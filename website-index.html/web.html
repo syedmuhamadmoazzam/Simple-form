@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        header {
+            height: 100px;
+            background-color: black;
+            width: 100%;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .navbar ul {
+            display: flex;
+            align-items: center;
+            position:sticky;
+        }
+
+        .navbar ul li {
+            text-decoration: none;
+            display: block;
+            margin: 0 20px;
+        }
+
+        .navbar h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 0;
+            color: yellow;
+        }
+        .navbar ul li a {
+            color: white;
+            font-size: 16px;
+        }
+        .navbar ul li button {
+            background-color:black;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 50px;
+            border: 1px solid red;
+        }
+        h1{
+            color:yellow;
+        }
+        p{
+            text-align: center;
+            color: aliceblue;
+        }
+        *{
+    margin: 0;
+    padding: 0%;
+}
+.container{
+    background-color:black;
+    width: 400px;
+    height:400px;
+    display: block;
+    margin: 200px auto;
+    overflow-y:auto;
+}
+.container h2{
+    background-color: blue;
+    color:red;
+    width: 384px;
+    position:sticky;
+    top:0;
+    font-size: 40px;
+}
+.container p{
+    color:white;
+    font-size:50px;
+}
+button.my{
+    background-color: burlywood;
+    border-radius:100px ;
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    right: 110px;
+    bottom: 110px;
+}
+button img{
+    height: auto;
+    width: 110px;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: separate;
+  width: 100%;
+  background-image:"https://th.bing.com/th/id/OIP.O1I5CDLGCnGXRFhEcmf4-gHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7";
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+span{
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2>SYED MUHAMMAD MOAZZAM (SMM)</h2>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./my-work.html">My Work</a></li>
+                <li><a href="./contact-us.html"><button>Contact Us</button></a></li>
+            </ul>
+        </nav>
+        <br><br><br><br>
+        <p><center><h1 style="color: black;"><span>ABOUT US</span></h1></center></p>
+        <div class="container">
+            <h2>IMPORTANT</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum minima, suscipit voluptatum quisquam ratione ipsum, error harum nemo excepturi eius placeat neque recusandae aut, est veritatis perferendis? Iure, nostrum consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto incidunt accusamus distinctio quas. Ut id commodi vero vitae, omnis similique, amet alias ab consequuntur, nihil accusantium.<span style="background-color:yellowgreen"> Ducimus nulla non libero Lorem </span> dolor sit, amet consectetur adipisicing elit. Sed incidunt reiciendis quo? Excepturi quasi doloribus voluptatum odit ut expedita id debitis, tempora ratione atque facilis dolores laborum doloremque tempore consectetur?
+            </p>
+        </div>
+        <button class="my"><img src="https://www.bing.com/th?id=OIP.zDsa2MoFeghUwytLWnDKwwHaHa&pid=3.1&cb=&w=300&h=300&p=0"></button>
+        <p><center><h1 style="color: black;"><span>CONTACT US</span></h1></center></p>
+        <br><br><br>
+        <table>
+            <tr>
+                <th>NAME</th>
+                <th>COUNTRY</th>
+                <th>CONTACT</th>
+                <th>COMPANY</th>
+            </tr>
+              <tr>
+                <td>ALI</td>
+                <td>Mexico</td>
+                <td>00849457609</td>
+                <td>Centro comercial Moctezuma</td>
+               
+              </tr>
+              <tr>
+                <td>KAMRAN</td>
+                <td>Austria</td>
+                <td>76830239389</td>
+                <td>Ernst Handel</td>
+                
+              </tr>
+              <tr>
+                <td>KARIM</td>
+                <td>UK</td>
+                <td>08735267809</td>
+                <td>Island Trading</td>
+              </tr>
+              <tr>
+                <td>HUSSAN</td>
+                <td>Canada</td>
+                <td>01384637540</td>
+                <td>Laughing Bacchus Winecellars</td>
+              </tr>
+              <tr>
+                <td>HASSAN</td>
+                <td>Italy</td>
+                <td>01978337590</td>
+                <td>Magazzini Alimentari Riuniti</td>
+              </tr>
+        </table>
+        <br><br><br>
+</body>
+</html>

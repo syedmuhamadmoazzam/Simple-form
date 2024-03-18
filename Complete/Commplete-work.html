@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    body,
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&display=swap" rel="stylesheet";
+    }
+
+    header {
+        height: fit-content;
+        background-color: #fff;
+        width: 100%;
+        height: 550px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1222px;
+        margin: 0 auto;
+        padding: 20px ;
+        background-color: rgb(218, 218, 218);
+        max-width:100% auto;
+    }
+    .navbar ul {
+        display: flex;
+        align-items: center;
+       
+    }
+
+    .navbar ul li {
+        text-decoration: none;
+        display: block;
+        margin: 0 20px;
+        margin-left: 255px;
+        max-width:100% auto;
+    }
+    .navbar ul li a {
+        color: black;
+        font-size: 16px;
+        text-decoration: none;
+        transition: 0.8s;
+    }
+    .navbar ul li button {
+        background-color:black;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 50px;
+        border: 1px solid red;
+    }
+    main{
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/580/224/1005/bubbles-soap-blow-sunset-sun-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1262px;
+        height: 600px;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    h1{
+        color:black;
+        text-align: center;       
+        margin-top: 150px; 
+        font-size: 60px;
+        font-weight: 600px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: inherit;
+        line-height: 1.1;
+        width: 100%;
+    }
+    p{
+        color:black;
+        text-align: center;
+        width: 500px;
+        width: 100%;
+    }
+    .body-ul{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .body-ul li{
+        text-align: center;
+        margin: 20px -440px;
+    }
+    hr{
+        width: 90px;
+        margin: 0 585px;
+        height: 2px;border-width:0;color:gray;background-color:black;
+        margin-top: 20px;
+    }
+    .main-button{
+        text-align: center;
+        margin: 20px;
+        margin-top: 30px;
+    }
+    .main-button button{
+        height: 50px;
+        width: 130px;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+        font-size: 16px;
+        font-family:"https://fonts.googleapis.com/css2?family=Anta&display=swap";
+        margin-bottom: 40px;
+    }
+    .main-button button:hover{
+        color:white;
+        background-color: black;
+        transition: 0.8s;
+    }
+    .container{
+        text-align: center;
+        background-color: #fff;
+        height: 500px;
+    }
+    .container-heading{
+        font-size: 28px;
+    }
+    .container img{
+        border-radius:100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    p{
+    width:700px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+    .portfolio{
+        height: 700px;
+        margin-bottom: 30px;
+        background-color: rgb(190, 190, 190);
+    }
+    .portfolio-heading{
+        font-size: 28px;
+        padding: 30px 0px;
+    }
+    .portfolio-hr{
+        margin:0 580px;
+        margin-top:20px;
+        margin-bottom: 40px;
+    }
+       section{
+        display: flex;
+        justify-content: center;
+       }
+       .card{
+        background-color: rgb(218, 218, 218);
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+       }
+       .card:hover{
+        background-color: black;
+        transition: 0.8s;
+       }
+       @media (max-width:768px) {
+            section{
+                flex-direction: column;
+            }
+            
+        }
+        .contact{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact form{
+    max-width: 700px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contact form label{
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-right: auto;
+    display: block;
+}
+.contact form input{
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    outline: black;
+    /* width: 100%; */
+    display: block;
+
+}
+.contact form textarea{
+    height: 90px;
+    font-size: 15px;
+    color:#000;
+    padding: 15px;
+}
+.input-field{
+    width: 100%;
+}
+   </style>
+</head>
+<header>
+    <main>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-me">ABOUT</a></li>
+            <li><a href="#protfolio">PROTFOLIO</a></li>
+            <li><a href="#contact-us">CONTACT US</a></li>
+        </ul>
+    </nav>
+<body>
+    <h1>MAGNUM</h1>
+    <hr>
+    <ul class="body-ul">
+        <li>Graphic Design</li>
+        <li>Illustration</li>
+        <li>Photography</li>
+    </ul>
+    <div class="main-button"><button>LEARN MORE</button></div>
+    </main>
+<div class="container" id="about-me">
+    <div class="content">
+    <h1 class="container-heading">ABOUT ME</h1>
+    <hr>
+    <img src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png">
+    <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente consequatur rem praesentium enim quia, nobis nemo est ipsum molestiae dolorem aperiam, sit accusantium soluta quos, minima ullam explicabo blanditiis fuga!</p></center>
+    <center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente consequatur rem praesentium enim quia, nobis nemo est ipsum molestiae dolorem aperiam, sit accusantium soluta quos, minima ullam explicabo blanditiis fuga!</p></center>
+    <div class="main-button"><button>MY PORTFOLIO</button></div>
+        <div class="portfolio" id="protfolio">
+        <h1 class="portfolio-heading">PROTFOLIO</h1>
+        <hr class="portfolio-hr">
+        <section>
+            <div class="card">
+                <p></p>
+            </div>
+            <div class="card">
+                <p></p>
+            </div>
+            <div class="card">
+                <p></p>
+            </div>
+        </section>
+        </div>
+    </div>
+    <div class="contact-us" id="contact-us">
+        <h1 class="container-heading">CONTACT US</h1>
+        <hr>
+        <section class="contact">
+            <form>
+                  <label for="name">Name</label>
+                  <input type="text" name="name" placeholder="Enter your Name">
+                <label for="email">Email</label>
+                  <input type="email" name="name" placeholder="Enter your Email">
+                <label for="message">Message</label>
+                <textarea name="Message" id="#" cols="30" rows="10" placeholder="Write your message">
+                </textarea>
+            </form>
+        </section>
+        <div class="main-button">
+        <button>SEND MESSAGE</button>
+        </div>
+    </div>
+    </body>
+</html>

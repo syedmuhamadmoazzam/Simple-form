@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        header {
+            height: fit-content;
+            background-color: rgb(34, 34, 34);
+            width: 100%;
+            height: 606px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 20px;
+            position: fixed;
+            margin-left:150px;
+        }
+        .navbar ul {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar ul li {
+            text-decoration: none;
+            display: block;
+            padding-left: 100px;
+            margin: 0 0px;
+            justify-content: right;
+        }
+
+        .navbar h2 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 0;
+            color: white;
+            width: 500px;
+        }
+        .navbar ul li a {
+            color: white;
+            font-size: 16px;
+            border-radius: 50px;
+            border: 1px solid red;
+            background-color: black;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .navbar ul li a:hover{
+            color:black;
+            background-color: white;
+        }
+        .navbar ul li button {
+            background-color:black;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 50px;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+        .navbar ul li button:hover{
+            color:black;
+            background-color: white;
+        }
+        h1{
+            color:yellow;
+            
+        }
+        p{
+            color:aliceblue;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        span{
+            color:yellow
+        }
+        main{
+            display: flex;
+            position: relative;
+        }
+        .sidebar{
+            max-width: 300px;
+            position: fixed;
+            top: 0;
+            height: 100vh;
+            background-color: white;
+            padding: 50px 0;
+        }
+        .sidebar ul li a{
+            padding: 10px 20px;
+            display: block;
+            color:black;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+        }
+        .sidebar ul li a:hover{
+            background-color: black;
+            color: white;
+        }
+        .content{
+            padding: 50px;
+            overflow-y: scroll;
+        }
+       </style>
+</head>
+<header>
+    <nav class="navbar">
+        <h2>SI<span>DE B</span>AR</h2>
+        <ul>
+            <li><button>Home</button></li>
+            <li><button> Work</button></li>
+            <li><button>Contact Us</button></li>
+        </ul>
+    </nav>
+<body>
+    <main>
+        <div class="sidebar">
+            <ul>
+            <li><a>Home</a></li>
+                <li><a>Servicer</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
